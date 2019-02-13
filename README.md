@@ -13,15 +13,19 @@ important problems are:
 - group size
 - skill levels of people in the group
 
-the goal is to achieve an even distribution of skill level for each group
+**the goal** is to achieve an even distribution of skill level for each group
 
 ## Assumptions:
-- people may be referenced by any string identifier, e.g., "AA" or "B789ghk" or "Dana"
+- people may be referenced by any string identifier, e.g., ``"AA"`` or ``"B789ghk"`` or ``"Dana"``
 - people provide their own score for their comfort with core python, an integer
-  from 0-100
+  from ``0`` to ``100``
+- each person has one score
+- people **can** have the same name
 - the `random` module is the only recommended module to import.
 
 ## Objectives:
 ### 1a) build a component which generates person identifiers (see Assumptions) 
 ### 1b) build a component which generates scores 
-### 2) 
+### 2) associate people with scores. Hint: after this step you may elect to
+log the output of people and their scores, then store this object locally to confirm consistent results
+### 3) 
