@@ -10,7 +10,7 @@
 
 ## Problem:
 This is a meta-exercise: the project is to optimally group
-people of different skils together for an event such as project night.
+people of different skills together for an event such as project night.
 Further, to make it challenging, the goal is to use Core Python and no
 imported libraries (except for [`random`][random]).
 
